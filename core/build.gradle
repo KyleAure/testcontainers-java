@@ -88,7 +88,7 @@ dependencies {
         exclude(group: 'org.apache.commons', module: 'commons-compress')
     }
 
-    shaded ('com.github.docker-java:docker-java-transport-okhttp:3.2.11') {
+    shaded ('com.github.docker-java:docker-java-transport-okhttp:3.2.12') {
         exclude(group: 'com.github.docker-java', module: 'docker-java-core')
         exclude(group: 'net.java.dev.jna')
         exclude(group: 'org.slf4j')
