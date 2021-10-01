@@ -94,7 +94,7 @@ dependencies {
         exclude(group: 'org.slf4j')
     }
 
-    api 'com.github.docker-java:docker-java-transport-zerodep:3.2.11'
+    api 'com.github.docker-java:docker-java-transport-zerodep:3.2.12'
 
     shaded "org.yaml:snakeyaml:1.29"
 
